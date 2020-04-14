@@ -1,0 +1,170 @@
+body{
+    margin: 0px;
+    padding: 0px;
+
+}
+
+
+/*******************navbar-gui******************/
+nav{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+}
+
+.navbar-collapse{
+    width: 100%;
+    justify-content: center;
+
+}
+.navbar-nav{
+    width: 50%;
+    justify-content: space-around;
+}
+
+
+
+.nav-link{
+
+}
+
+.navbar-brand {font-size: 14px !important;}
+.navbar-brand img{
+    height: 70px;
+    width: auto;
+}
+
+/*******************navbar-info******************/
+
+.navbar-info {
+    font-family: 'Fira Sans', sans-serif; font-size: 14px !important;
+    height: 36px;
+    align-items: center;
+    display: inline-flex;
+    justify-content: space-evenly;
+    width: 100%;
+}
+
+.navbar-info img {
+    height: 16px;
+    width: auto;
+}
+
+.navbar-section {
+    display: flex;
+    justify-content: space-evenly;
+}
+.navbar-section h5 {
+    font-size: 17px;
+}
+.s-extends {
+    width: 250px;
+}
+.s-center{
+    width: 30vw;
+}
+/*******************navbar-info******************/
+
+
+/*************************CONTENT**************/
+
+content {
+    display: flex-column;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.last {
+    display: inline-flex;
+    justify-content: space-around;
+    width: 100%;
+    min-height: 530px;
+    background-color: black;
+    margin-top: 40px;
+    align-items: center;
+}
+
+.card {
+    width: 20rem;
+    height: 30rem;
+}
+
+#last-event-text{
+    position: relative;
+
+}
+#last-event-text a{
+    position: relative;
+    text-decoration: none !important;
+    font-size: 42px !important;
+    color: white !important;
+    /*right: 60vw;*/
+}
+#last-event-text p{
+    position: relative;
+    color: white;
+    font-size: 24px;
+
+    /*right: 60vw;*/
+}
+
+
+
+
+
+
+.season {
+    width: 100%;
+    height: 700px;
+    background-color: yellow;
+    margin-top: 40px;
+    display: inline-flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+
+#carouselSection {
+    width: 46vw; 
+}
+
+.carousel-item {
+        border: 12px solid white;
+}
+
+.season div {
+
+}
+
+#text-season {
+    /*right: 85vh;*/
+    position: relative;
+}
+
+
+/*************************travels*********************/
+
+.choice {
+    margin-top: 40px;
+    width: 100%;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+
+    background-color: gray;
+}
+.choice-content {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    grid-row-gap: 80px;
+    grid-column-gap: 140px;
+}
+
+.ch {
+    width: 20rem;
+    height: 30rem;
+}

@@ -1,12 +1,17 @@
 body{
     margin: 0px;
     padding: 0px;
-
 }
 
 
+
+* {
+    font-family: 'Manrope', sans-serif;
+}
+
 /*******************navbar-gui******************/
 nav{
+
     display: flex;
     width: 100%;
     justify-content: center;
@@ -24,11 +29,11 @@ nav{
 
 
 
-.nav-link{
-
+.navbar-gui{
+    background-color: #e0a984;
 }
 
-.navbar-brand {font-size: 14px !important;}
+.navbar-brand {font-size: 20px !important;}
 .navbar-brand img{
     height: 70px;
     width: auto;
@@ -37,7 +42,7 @@ nav{
 /*******************navbar-info******************/
 
 .navbar-info {
-    font-family: 'Fira Sans', sans-serif; font-size: 14px !important;
+    
     height: 36px;
     align-items: center;
     display: inline-flex;
@@ -50,18 +55,22 @@ nav{
     width: auto;
 }
 
+.navbar {
+
+}
+
 .navbar-section {
     display: flex;
     justify-content: space-evenly;
 }
 .navbar-section h5 {
-    font-size: 17px;
+    font-size: 20px;
 }
 .s-extends {
     width: 250px;
 }
 .s-center{
-    width: 30vw;
+    width: 40vw;
 }
 /*******************navbar-info******************/
 
@@ -88,7 +97,7 @@ content {
 
 .card {
     width: 20rem;
-    height: 30rem;
+    height: 31rem;
 }
 
 #last-event-text{
@@ -118,7 +127,7 @@ content {
 .season {
     width: 100%;
     height: 700px;
-    background-color: yellow;
+    background-color: #e0a984;
     margin-top: 40px;
     display: inline-flex;
     justify-content: space-around;
@@ -142,6 +151,7 @@ content {
 #text-season {
     /*right: 85vh;*/
     position: relative;
+    font-size: 82px;
 }
 
 
@@ -156,15 +166,31 @@ content {
 
     background-color: gray;
 }
+
+#choiceText {
+    height: 120px;
+}
+#choiceText h2 {
+    font-size: 100px;
+}
+
+
 .choice-content {
     display: grid;
-    grid-template-columns: repeat(4, 1fr);
+    grid-template-columns: repeat(3, 1fr);
     grid-template-rows: repeat(2, 1fr);
     grid-row-gap: 80px;
     grid-column-gap: 140px;
+    padding-top: 10vh;
 }
 
 .ch {
-    width: 20rem;
+    width: 25rem;
     height: 30rem;
+}
+
+
+.card {
+    border: 1px solid red;
+    border-radius: 0px !important;
 }

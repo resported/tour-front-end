@@ -86,7 +86,7 @@ content {
 
 
 .last {
-    display: inline-flex;
+    display: flex;
     justify-content: space-around;
     width: 100%;
     min-height: 530px;
@@ -120,9 +120,11 @@ content {
 }
 
 
+.items {
+    display: flex;
+    justify-content: space-evenly;
 
-
-
+}
 
 .season {
     width: 100%;
@@ -193,4 +195,25 @@ content {
 .card {
     border: 1px solid red;
     border-radius: 0px !important;
+}
+
+
+
+
+@media screen and (device-width: 1366px) {
+    .last {
+        display: flex-root;
+    }
+    .season {
+        display: flex-root;
+    }
+
+    .carousel-item {
+        width: 52rem;
+    }
+
+    .choice-content {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
 }
